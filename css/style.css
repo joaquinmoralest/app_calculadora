@@ -4,7 +4,7 @@
     --black: rgba(0, 0, 0, .9);
     --white: rgba(255, 255, 255, 0.7);
     --bg: rgba(150, 150, 150, .1);
-    --br: 8px;
+    --br: 10px;
 }
 
 * {
@@ -22,7 +22,7 @@ body {
 
 .app {
     width: 80%;
-    max-width: 500px;
+    max-width: 400px;
     border: var(--border);
     border-radius: var(--br);
     padding: 25px;
@@ -40,11 +40,12 @@ body {
     text-align: right;
     padding: 10px;
     border-radius: var(--br);
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .buttons {
     display: flex;
+    justify-content: space-between;
 }
 
 .numbers {
@@ -68,10 +69,32 @@ body {
 }
 
 .zero {
-    grid-area: 4 / 1 / 5 / 4;
+    grid-area: 4 / 1 / 5 / 3;
 }
 
 .number:hover {
+    color: #fff;
+    background-color: rgba(16, 106, 223, 0.753);
+    box-shadow: 0px 5px 15px 0px rgba(10, 10, 10, .7);
+}
+
+.operations {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.operator {
+    font-size: 1.2em;
+    padding: 25px;
+    background-color: var(--bg);
+    border: var(--border);
+    border-radius: var(--br);
+    color: var(--white);
+}
+
+.operator:hover {
     color: #fff;
     background-color: rgba(16, 106, 223, 0.753);
     box-shadow: 0px 5px 15px 0px rgba(10, 10, 10, .7);
