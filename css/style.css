@@ -69,7 +69,7 @@ body {
 }
 
 .zero {
-    grid-area: 4 / 1 / 5 / 3;
+    grid-area: 5 / 1 / 6 / 3;
 }
 
 .number:hover {
@@ -80,9 +80,11 @@ body {
 
 .operations {
     width: 22%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
 }
 
 .operator {
@@ -92,6 +94,14 @@ body {
     border: var(--border);
     border-radius: var(--br);
     color: var(--white);
+}
+
+.sumar {
+    grid-area: 2 / 1 / 4 / 2;
+}
+
+.igual {
+    grid-area: 4 / 1 / 6 / 2;
 }
 
 .operator:hover {
