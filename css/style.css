@@ -43,6 +43,10 @@ body {
     margin-bottom: 50px;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 .buttons {
     display: flex;
     justify-content: space-between;
