@@ -22,8 +22,94 @@ const restar = document.getElementById('restar');
 const igual = document.getElementById('igusl');
 const punto = document.getElementById('punto');
 
-siete.onclick = () => {
-    barraResultado = siete.innerHTML;
+uno.onclick = () => {
+    if (barraResultado.textContent[0] === "0") {
+        barraResultado.textContent = "1";
+    } else {
+        barraResultado.textContent = barraResultado.textContent + "1";
+    }
 };
 
-console.log(siete.innerHTML);
+dos.onclick = () => {
+    if (barraResultado.textContent[0] === "0") {
+        barraResultado.textContent = "2";
+    } else {
+        barraResultado.textContent = barraResultado.textContent + "2";
+    }
+};
+
+tres.onclick = () => {
+    if (barraResultado.textContent[0] === "0") {
+        barraResultado.textContent = "3";
+    } else {
+        barraResultado.textContent = barraResultado.textContent + "3";
+    }
+};
+
+cuatro.onclick = () => {
+    if (barraResultado.textContent[0] === "0") {
+        barraResultado.textContent = "4";
+    } else {
+        barraResultado.textContent = barraResultado.textContent + "4";
+    }
+};
+
+cinco.onclick = () => {
+    if (barraResultado.textContent[0] === "0") {
+        barraResultado.textContent = "5";
+    } else {
+        barraResultado.textContent = barraResultado.textContent + "5";
+    }
+};
+
+seis.onclick = () => {
+    if (barraResultado.textContent[0] === "0") {
+        barraResultado.textContent = "6";
+    } else {
+        barraResultado.textContent = barraResultado.textContent + "6";
+    }
+};
+
+siete.onclick = () => {
+    if (barraResultado.textContent[0] === "0") {
+        barraResultado.textContent = "7";
+    } else {
+        barraResultado.textContent = barraResultado.textContent + "7";
+    }
+};
+
+ocho.onclick = () => {
+    if (barraResultado.textContent[0] === "0") {
+        barraResultado.textContent = "8";
+    } else {
+        barraResultado.textContent = barraResultado.textContent + "8";
+    }
+};
+
+nueve.onclick = () => {
+    if (barraResultado.textContent[0] === "0") {
+        barraResultado.textContent = "9";
+    } else {
+        barraResultado.textContent = barraResultado.textContent + "9";
+    }
+};
+
+cero.onclick = () => {
+    if (barraResultado.textContent[0] === "0") {
+        barraResultado.textContent = "0";
+    } else {
+        barraResultado.textContent = barraResultado.textContent + "0";
+    }
+};
+
+punto.onclick = () => {
+    if (barraResultado.textContent.includes(".")) {
+        
+    }
+    else if (barraResultado.textContent === "0") {
+        barraResultado.textContent = "."
+    } else {
+        barraResultado.textContent = barraResultado.textContent + ".";
+    }
+};
+
