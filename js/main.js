@@ -148,19 +148,19 @@ sumar.onclick = () => {
     limpiar();
 };
 
-resta.onclick = () => {
+restar.onclick = () => {
     a = barraResultado.textContent;
     operacion = "-" 
     limpiar();
 };
 
-multiplicacion.onclick = () => {
+multiplicar.onclick = () => {
     a = barraResultado.textContent;
     operacion = "*" 
     limpiar();
 };
 
-division.onclick = () => {
+dividir.onclick = () => {
     a = barraResultado.textContent;
     operacion = "/" 
     limpiar();
